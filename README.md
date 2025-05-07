@@ -1,36 +1,35 @@
-
 # Study Tracker - Actuarial Exam Preparation
 
 ## Purpose
 
-The **Study Tracker** application helps users track the time they need to study for an **actuarial exam**. This program allows users to input their total study hours, the day of the exam, the remaining days, and hours studied, providing them with real-time progress updates to help manage their study schedule effectively.
+The **Study Tracker** is an application I created to help track the time I need to study for my **actuarial exam**. This tool allows me to input the total number of hours I need to study, the day of the exam, the number of days remaining, and how many hours I have already studied. It then provides real-time progress updates, helping me stay on track and manage my study time effectively.
 
 ### Key Features:
 - **Input total study hours**
 - **Track progress by entering hours studied**
 - **Calculate the remaining time to study**
-- **Progress updates based on time left and hours studied**
+- **Provide progress updates based on time left and hours studied**
 
 ## Tools Used
 
-- **Java**: The core programming language used to develop the application.
-- **NetBeans**: The Integrated Development Environment (IDE) used to build the project, with features like GUI design and project management.
-- **Swing**: Java's GUI toolkit, used for creating the user interface of the Study Tracker.
+- **Java**: The programming language I used to develop the application.
+- **NetBeans**: The Integrated Development Environment (IDE) I used to build the project, which includes features like GUI design and project management.
+- **Swing**: Java’s GUI toolkit, used for creating the user interface of the Study Tracker.
 
 ## Steps Taken
 
-1. **Initial Planning**: Determined the core functionality needed for tracking study hours and progress.
-2. **Design**: Created a basic GUI layout with input fields for total study hours, hours studied, days remaining, and the exam date.
-3. **Implementation**: Wrote the logic to calculate remaining hours and study time based on user input. Set up real-time progress tracking features.
-4. **Testing**: Tested the functionality to ensure accurate calculations and smooth user experience.
-5. **Commit to GitHub**: Uploaded the source code and project files to GitHub for version control and sharing.
+1. **Initial Planning**: I began by determining the core functionality needed to track study hours and progress.
+2. **Design**: I created a basic layout for the GUI, including input fields for total study hours, hours studied, remaining days, and the exam date.
+3. **Implementation**: I wrote the logic to calculate the remaining hours and study time based on my input, and set up real-time progress tracking features.
+4. **Testing**: I tested the application to ensure the calculations were correct and the user experience was smooth.
+5. **Commit to GitHub**: After finishing the project, I uploaded the source code and project files to GitHub for version control and sharing.
 
 ## Future Improvements
 
-- **Dark Mode/Custom Background**: Add the ability to switch between light and dark mode for better user experience.
+- **Dark Mode/Custom Background**: I plan to add the ability to switch between light and dark modes for better user experience.
 - **Advanced Features**: 
-  - Allow for different study topics and allocate study hours based on topic importance.
-  - Set reminders and notifications for daily study goals.
+  - I would like to add the option to track different study topics and allocate hours based on topic importance.
+  - Adding reminders and notifications for daily study goals is another feature I aim to implement.
 
 ## How to Run
 
