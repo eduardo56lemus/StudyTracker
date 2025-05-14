@@ -19,7 +19,7 @@ public class StudyTrackerGUI extends JFrame {
     private static final String FILE_NAME = "study_data.txt";
 // constructor 
     public StudyTrackerGUI() {
-        setTitle("📚 Study Progress Tracker");
+        setTitle(" Study Progress Tracker");
         setSize(450, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new GridLayout(0, 1));
@@ -66,9 +66,9 @@ public class StudyTrackerGUI extends JFrame {
             examDateField.setText(reader.readLine());
             daysRemainingField.setText(reader.readLine());
             hoursStudiedField.setText(reader.readLine());
-            outputArea.setText("✅ Loaded previous progress.\n");
+            outputArea.setText(" Loaded previous progress.\n");
         } catch (IOException ex) {
-            outputArea.setText("⚠️ Error loading data.\n");
+            outputArea.setText(" Error loading data.\n");
         }
     }
 
@@ -80,7 +80,7 @@ public class StudyTrackerGUI extends JFrame {
             writer.write(hoursStudiedField.getText() + "\n");
             outputArea.append("📁 Progress saved.\n");
         } catch (IOException ex) {
-            outputArea.setText("⚠️ Error saving data.\n");
+            outputArea.setText(" Error saving data.\n");
         }
     }
 
@@ -104,11 +104,11 @@ public class StudyTrackerGUI extends JFrame {
             outputArea.append(String.format("You need to study %.2f hours/day.\n", perDay));
 
             if (hoursLeft <= 0) {
-                outputArea.append("🎉 You're done studying! Good luck on the exam!\n");
+                outputArea.append("You're done studying! Good luck on the exam!\n");
             }
 
         } catch (NumberFormatException ex) {
-            outputArea.setText("⚠️ Please enter valid numbers.\n");
+            outputArea.setText("Please enter valid numbers.\n");
         }
     }
 
